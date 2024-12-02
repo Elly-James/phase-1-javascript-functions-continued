@@ -20,5 +20,7 @@ function wrapAdjective(msg1="*"){
 
     }
 }
-console.log(wrapAdjective()('a hard worker'));
+
 console.log(wrapAdjective("||")('a dedicated programmer'));
+console.log(wrapAdjective()('a hard worker'));
+console.log(wrapAdjective()());
